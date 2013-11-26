@@ -18,9 +18,11 @@
     "ejs": "0.8.4"
   },
   "devDependencies": {
+    "should": "*",
+    "mocha": ">=1.2.1"
   },
   "scripts": {
     "test": "make test-all"
   },
-  "readmeFilename": "Readme.md",
+  "readmeFilename": "Readme.md"
 }
