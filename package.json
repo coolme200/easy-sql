@@ -1,0 +1,26 @@
+{
+  "name": "easy-sql",
+  "version": "0.0.0",
+  "description": "just write sql yourself",
+  "keywords": [
+    "sql"
+  ],
+  "author": {
+    "name": "汤尧",
+    "email": "tangyao@alibaba-inc.com"
+  },
+  "homepage": "https://github.com/coolme200/easy-sql",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:coolme200/easy-sql.git"
+  },
+  "dependencies": {
+    "ejs": "0.8.4"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "make test-all"
+  },
+  "readmeFilename": "Readme.md",
+}
