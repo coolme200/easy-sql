@@ -6,8 +6,13 @@ describe('lib/index.js', function () {
 
   var options = {sqlPool: path.resolve(__dirname, '../sqls')};
 
+  it('init', function (done) {
+    easysql.init(options);
+    done();
+  });
+
   it('one', function (done) {
-    var back = easysql.one('test', options);    
+    var back = easysql.one('test');    
     back.should.eql(' select col1 as b, col2 as c from table ; ');
     done();
   });
