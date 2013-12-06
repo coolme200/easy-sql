@@ -9,5 +9,11 @@ where 1 = 1
 <% if (a) { %>
   and a = :a
 <% } %>
-
+<%
+  if (isEmpty('notExistKey')) {
+%>
+  -- not exist key
+<%
+  }
+%>
 ;
