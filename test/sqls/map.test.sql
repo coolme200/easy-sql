@@ -16,4 +16,11 @@ where 1 = 1
 <%
   }
 %>
+<%
+  if (isNotEmpty('notExistKey')) {
+%>
+  -- not exist key
+<%
+  }
+%>
 ;
