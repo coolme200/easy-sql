@@ -24,9 +24,16 @@ describe('lib/index.js', function () {
     done();
   });
 
-  it('map', function (done) {
-    var back = easysql.map('map.test', {a: 1}, options);
+  it('dynamic', function (done) {
+    var back = easysql.dynamic('map.test', {a: 1}, options);
     back.should.eql(' select col1 as b, col2 as c from table where 1 = 1 and a = :a ; ');
+    done();
+  });
+
+  it('dynamicMulti', function (done) {
+    var back = easysql.dynamicMulti('map.test', {a: 1}, options);
+    back.length.should.eql(1);
+    back[0].should.eql(' select col1 as b, col2 as c from table where 1 = 1 and a = :a ');
     done();
   });
 

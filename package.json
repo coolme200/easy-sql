@@ -1,6 +1,6 @@
 {
   "name": "easy-sql",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "just write sql yourself",
   "keywords": [
     "sql"
