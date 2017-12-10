@@ -15,7 +15,7 @@
     "url": "git@github.com:coolme200/easy-sql.git"
   },
   "dependencies": {
-    "ejs": "1.0.0"
+    "ejs": "^2.5.7"
   },
   "devDependencies": {
     "should": "*",
