@@ -1,6 +1,6 @@
 ## easy-sql
 
-write sql by yourself
+write easy sql by yourself
 
 ```
 var sql = easysql.one('student.all', {sqlPool: path.resolve(__dirname, 'tmp/sqls')});
